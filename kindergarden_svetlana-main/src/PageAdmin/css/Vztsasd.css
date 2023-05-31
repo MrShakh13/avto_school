@@ -1,0 +1,294 @@
+.bodyadmpn {
+  width: 100%;
+  margin: 0;
+}
+
+.nodir3 {
+  padding-top: 60px;
+}
+
+.bodyadmp_h2 {
+  margin-left: 5.5%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #334155;
+}
+
+.bodyadmp_h2 b {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #334155;
+}
+
+.btnadmp_box1 {
+  width: 90%;
+  padding-top: 5%;
+  margin: auto;
+}
+
+.btnchil_table {
+  width: 100%;
+  border-radius: 30px 30px 0px 0;
+  -webkit-border-radius: 30px 30px 0px 0;
+  -moz-border-radius: 30px 30px 0px 0;
+  -ms-border-radius: 30px 30px 0px 0;
+  -o-border-radius: 30px 30px 0px 0;
+}
+
+.btnadmp_tr,
+.btnadmp_tr1 {
+  text-align: center;
+}
+
+.btnadmp_th1 {
+  border-radius: 30px 0 0 0;
+  -webkit-border-radius: 30px 0 0 0;
+  -moz-border-radius: 30px 0 0 0;
+  -ms-border-radius: 30px 0 0 0;
+  -o-border-radius: 30px 0 0 0;
+}
+
+.btnadmp_th2 {
+  border-radius: 0px 30px 0 0;
+  -webkit-border-radius: 0px 30px 0 0;
+  -moz-border-radius: 0px 30px 0 0;
+  -ms-border-radius: 0px 30px 0 0;
+  -o-border-radius: 0px 30px 0 0;
+}
+
+.btnadmp_th,
+.btnadmp_th1,
+.btnadmp_th2 {
+  height: 60px;
+  background: rgba(51, 65, 85, 0.5);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #334155;
+  width: 500px;
+}
+
+.btnadmp_td1,
+.btnadmp_td2 {
+  height: 60px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #334155;
+  margin: 0;
+}
+
+.btnadmp_td1 {
+  background: #d9d9d9;
+}
+
+.butadmp1,
+.butadmp2 {
+  background-color: transparent;
+  border: none;
+}
+
+.madin1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #79bc6d;
+  margin-left: 40px;
+}
+
+.madin {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ea5d4a;
+}
+
+.ustoz {
+  display: flex;
+  margin-top: 30px;
+  /* justify-content: center; */
+}
+
+.dropw {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.srdhcfghjbk {
+  width: 30%;
+  background: #fff;
+  margin: auto;
+  padding: 5px;
+  position: absolute;
+  top: 200px;
+  right: 30%;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.srdhcfghjbk h1 {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 26px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.srdhcfghjbk select {
+  width: 90%;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.srdhcfghjbk input {
+  width: 90%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.srdhcfghjbk h4 {
+  font-size: 20px;
+}
+
+.srdhcfghjbk button {
+  width: 30%;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  background: #334155;
+  color: white;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-left: 30%;
+}
+
+.hyeraysd {
+  display: none;
+  position: absolute;
+  top: 105px;
+  left: 0;
+  width: 100%;
+  min-height: 89vh;
+  background: #00000048;
+  z-index: 99;
+}
+
+.srdhcfghjbk2 {
+  width: 30%;
+  background: #fff;
+  margin: auto;
+  padding: 5px;
+  position: absolute;
+  top: 200px;
+  right: 30%;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.srdhcfghjbk2 h1 {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 26px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.srdhcfghjbk2 select {
+  width: 90%;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.srdhcfghjbk2 input {
+  width: 90%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.srdhcfghjbk2 h4 {
+  font-size: 20px;
+}
+
+.srdhcfghjbk2 button {
+  width: 30%;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  background: #334155;
+  color: white;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-left: 30%;
+}
+
+.hyeraysd2 {
+  display: none;
+  position: absolute;
+  top: 105px;
+  left: 0;
+  width: 100%;
+  min-height: 89vh;
+  background: #00000048;
+  z-index: 99;
+}
+
+.bigEgos {
+  width: 150%;
+}
+
+.bigEgos2 {
+  width: 440% !important;
+}
+
+.modal1122 {
+  display: none;
+}
+
+#btnlar1{
+  position: absolute;
+  right: 200px;
+  margin-bottom: 30px;
+  margin-top: -23px;
+}
+
+.inputDate{
+  width: 40%;
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+#drop{
+  width: 30% !important;
+}
+
+.selectGrpp{
+  width: 40%;
+  height: 40px;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 10%;
+  outline: none;
+}

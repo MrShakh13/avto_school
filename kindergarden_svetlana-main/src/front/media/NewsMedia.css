@@ -1,0 +1,186 @@
+@media(max-width: 924px) {
+    .Home-h1 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 748px) {
+    .Homeimg-1 {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .Home-h1,
+    .Home-p {
+        margin-left: 5%;
+    }
+}
+
+@media(max-width: 522px) {
+    .Home-h1 {
+        font-size: 23px;
+    }
+
+    .Home-p {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 410px) {
+    .Home-h1 {
+        font-size: 20px;
+    }
+
+    .Homeimg-1 {
+        width: 90%;
+    }
+
+    .News-p-2{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 1428px) {
+    .Home-img-div img {
+        width: 30%;
+    }
+}
+
+@media(max-width: 748px) {
+    .Home-img-div img {
+        width: 32%;
+    }
+
+    .Home-img-div{
+        width: 90%;
+    }
+}
+
+@media(max-width: 974px){
+    .reference{
+        width: 90%;
+    }
+}
+
+@media(max-width: 619px){
+    .reference{
+        width: 100%;
+    }
+    .reference p{
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 415px){
+    .About-home img{
+        width: 90%;
+    }
+    .reference p{
+        font-size: 10px;
+    }
+    .reference h1{
+        font-size: 7vw;
+    }
+}
+
+@media(max-width: 626px) {
+    .blogs h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .blogs {
+        width: 100%;
+    }
+
+    .blog {
+        width: 100%;
+    }
+
+    .blogs p {
+        width: 100%;
+    }
+
+    .blogs img {
+        width: 100%;
+    }
+
+    .forms {
+        width: 100%;
+        margin: auto;
+    }
+
+    .forms button {
+        width: 74%;
+    }
+
+    .forms input {
+        width: 70%;
+        padding-right: 3px;
+    }
+
+    .asdas {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .spans {
+        width: 15px;
+        height: 15px;
+    }
+
+    .spansa {
+        width: 90%;
+    }
+}
+
+@media(max-width: 540px) {
+    .blogs h1 {
+        font-size: 20px;
+    }
+
+    .blogs p {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 444px) {
+    .blogs h1 {
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .blogs {
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .blog {
+        width: 100%;
+    }
+
+    .bgs {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .blogs img {
+        width: 90%;
+    }
+
+    .blogs p {
+        width: 100%;
+    }
+
+    .forms input {
+        width: 80%;
+    }
+
+    .forms button {
+        width: 84%;
+    }
+
+    .forms {
+        /* margin-left: 3%; */
+    }
+}

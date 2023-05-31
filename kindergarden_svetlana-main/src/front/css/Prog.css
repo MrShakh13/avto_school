@@ -1,0 +1,32 @@
+.Prog-h1 {
+  color: #8081bd;
+  font-size: 40px;
+  margin-left: 10%;
+}
+
+.Progdiv-1 {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: 10%;
+  margin-top: 70px;
+  align-items: center;
+}
+
+.kotta {
+  width: 50%;
+  /* margin-left: 2%; */
+}
+.kotta h1 {
+  color: #8081bd;
+}
+
+.blog {
+  margin-top: 30px;
+}
+
+.Progdiv-1 img {
+  width: 500px;
+  border-radius: 10px;
+}

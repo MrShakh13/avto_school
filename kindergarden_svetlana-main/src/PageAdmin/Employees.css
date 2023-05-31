@@ -1,0 +1,509 @@
+.body {
+  width: 100%;
+  /* background: #FFF6D1; */
+}
+
+.bigah1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 24px;
+  color: #334155;
+  margin-left: 7%;
+}
+
+.biga-pages {
+  width: 100%;
+  display: flex !important;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  justify-content: space-around;
+}
+
+.biga-pages .selectgrupp {
+  width: 100%;
+  height: 40px;
+  border-radius: 30px;
+}
+
+#drop {
+  width: 800px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+#dropdown-basic {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #334155;
+}
+
+#btnlar1 {
+  width: 243px;
+  height: 43px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background: #334155 !important;
+  border-radius: 30px;
+  border: none;
+  margin-left: 10px !important;
+  margin-top: 0 !important;
+}
+
+#btnlar1:hover {
+  background-color: #0062eb;
+}
+
+#pluslar {
+  font-size: 25px;
+  font-weight: 900;
+  /* border: 3px solid white;4 */
+}
+
+#tables {
+  width: 100%;
+  border-radius: 30px;
+  background: white;
+}
+
+#names {
+  display: flex;
+  justify-content: space-around;
+  background: rgba(51, 65, 85, 0.5);
+  border-radius: 30px 30px 0px 0px;
+}
+
+#names p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  /* text-align: center; */
+  margin-top: 10px;
+  color: #334155;
+}
+
+#inform1 {
+  width: 100%;
+  height: 70px;
+  background: #d9d9d9;
+}
+
+#inform-p {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#inform-p p {
+  width: 70px !important;
+  max-width: 150px;
+}
+
+.p-width {
+  width: 10px !important;
+  margin-left: -30px !important;
+}
+
+.hyjkkl {
+  width: 10px !important;
+}
+
+#inform2 #inform-p p {
+  width: 10%;
+  text-align: center;
+  /* background: #000; */
+}
+
+#inform2 {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  background: white;
+}
+
+#iconci {
+  width: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#iconci img {
+  width: 25px;
+  height: 25px;
+}
+
+@media (max-width: 770px) {
+  #tables {
+    width: 100%;
+    overflow-y: scroll;
+  }
+
+  #names {
+    width: 1000px;
+  }
+
+  #inform1 {
+    width: 1000px;
+  }
+
+  #inform2 {
+    width: 1000px;
+  }
+}
+
+.modal11 {
+  width: 100%;
+  height: 100vh;
+  background: #fff6d1;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  overflow-y: scroll;
+  z-index: 11;
+  display: none;
+  padding: 10%;
+}
+
+.modal11 label {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #334155;
+  margin-top: 20px;
+}
+
+.tabs11 {
+  display: flex;
+  font-size: 1.4vw;
+  list-style: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 20px;
+  color: #334155;
+
+  text-align: center;
+}
+
+.tabs11 li {
+  width: 33.3%;
+  padding-bottom: 20px;
+  cursor: pointer;
+  border-bottom: 5px solid white;
+}
+
+.pages11 {
+  width: 60%;
+  margin-left: 10%;
+}
+
+.pages11 input {
+  width: 256px;
+  height: 43px;
+  padding-left: 10px;
+  background: #ffffff;
+  border: 1px solid rgba(51, 65, 85, 0.5);
+  border-radius: 10px;
+}
+
+.pages11 select {
+  width: 256px;
+  height: 43px;
+  padding-left: 10px;
+  background: #ffffff;
+  border: 1px solid rgba(51, 65, 85, 0.5);
+  border-radius: 10px;
+}
+
+.pages12 {
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
+  position: relative;
+  background-color: white;
+  padding-bottom: 30px;
+  left: 2%;
+  border-radius: 20px;
+}
+
+.pages12 input {
+  width: 100%;
+  height: 194px;
+  background: #ffffff;
+  border: 1px solid rgba(51, 65, 85, 0.5);
+  border-radius: 10px;
+  margin-left: 30px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+}
+
+.upload_file h1 {
+  font-size: 100px;
+  background: #ffffff;
+  border: 1px dashed rgba(51, 65, 85, 0.5);
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.upload_file p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #334155;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.oyna101 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  flex-wrap: wrap;
+  position: relative;
+  left: 8%;
+}
+
+.df_button1 {
+  width: 163.5px;
+  height: 51px;
+  background: rgba(51, 65, 85, 0.5);
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+  border: none;
+}
+
+.df_button2 {
+  width: 163.5px;
+  height: 51px;
+  background: #334155;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+  border: none;
+}
+
+.df_button {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  min-width: 300px;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-right: 0px;
+  margin-top: 30px;
+}
+
+.modal12 {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 9999;
+  background-color: rgba(5, 0, 0, 0.339);
+  backdrop-filter: blur(20px);
+}
+
+.form12 {
+  padding: 10px;
+  background-color: white;
+  /* min-height: 200px; */
+  min-width: 300px;
+  text-align: center;
+}
+
+.fileUpload {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-height: 700px;
+}
+
+.fileUpload .pages_files {
+  margin-top: 10px;
+  background: #ffffff;
+  border: 1px solid rgba(51, 65, 85, 0.5);
+  border-radius: 20px;
+  width: 40%;
+  position: relative;
+  min-height: 200px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+.fileUpload .pages_files input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+}
+
+.sss22 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 10%;
+}
+
+.form-control {
+  width: 100% !important;
+  background: #fff !important;
+  height: 40px !important;
+  font-weight: 600 !important;
+}
+
+.userNumber2 {
+  width: 260px !important;
+  border: 1px solid black !important;
+  background: #000 !important;
+  border-radius: 30px;
+}
+
+.modal112 {
+  display: none;
+  margin-top: 100px;
+}
+
+
+.modal1122 {
+  display: none;
+  margin-top: 40px;
+}
+
+.fileUpload {
+  width: 85%;
+  height: 300px;
+  background: #fff;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 11%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.fileUpload input {
+  width: 100%;
+  height: 300px;
+  opacity: 0;
+}
+
+.fileUpload img {
+  position: absolute;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.fileUpload p {
+  position: absolute;
+  display: flex;
+  margin-top: 120px;
+  text-align: center;
+}
+
+#dd2 {
+  overflow-y: hidden;
+}
+
+.selectRgroup {
+  width: 30%;
+  height: 35px;
+  border-radius: 30px;
+  padding: 5px;
+  outline: none;
+}
+
+.dropw{
+  margin-left: 10%;
+}
+
+.cake1 input{
+  width: 20%;
+  height: 40px;
+  border-radius: 30px;
+  padding: 5px;
+}
+
+
+
+
+
+/* id="btnlar1"
+onClick={() => {
+ this.openModal();
+}} */
+
+
+
+
+/* 
+<div>
+
+<Dropdown id="drop">
+  <Dropdown.Toggle variant="light" id="dropdown-basic">
+    Должность
+  </Dropdown.Toggle>
+  <Dropdown.Menu>
+    <Dropdown.Item href="#/action-1">Добавите</Dropdown.Item>
+    <Dropdown.Item href="#/action-2">Добавите</Dropdown.Item>
+    <Dropdown.Item href="#/action-3">Добавите</Dropdown.Item>
+  </Dropdown.Menu>
+</Dropdown>
+</div>
+<input type='date' />
+<div>
+<button
+  id="btnlar1"
+  onClick={() => {
+    this.openModal();
+  }}
+>
+  + Добавить Родитель
+</button>
+</div> */

@@ -1,0 +1,158 @@
+.Home-h1 {
+  color: #8081bd;
+  font-size: 30px;
+  margin-left: 10%;
+}
+
+.Home-p {
+  margin-left: 10%;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.Home-p span {
+  font-weight: 600;
+}
+
+.Homeimg-1 {
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 20px;
+}
+
+.Home-img-div {
+  display: flex;
+  width: 80%;
+  margin-top: 10px;
+  margin: auto;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.Home-img-div img {
+  border-radius: 20px;
+}
+
+.News-p-2 {
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.About-home {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: auto;
+}
+.reference {
+  width: 70%;
+}
+.About-home img {
+  border-radius: 20px;
+}
+.New-h1 {
+  color: #f6b31f;
+  font-size: 40px;
+  margin-left: 10%;
+}
+
+/* swiper-container {
+    width: 90%;
+    height: auto;
+  }
+
+  swiper-slide {
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swp-div{
+    width: 500px;
+  }
+  .swp-div h1{
+    font-size: 30px;
+  }
+  .swp-div h1{
+color: #8081BD;
+  } */
+
+.blog {
+  width: 100%;
+  height: auto;
+  background: url("../img/8190161\ 2.png");
+}
+
+.bgs {
+  align-content: center;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.blogs h1 {
+  font-size: 35px;
+  width: 600px;
+  color: #334155;
+  margin-top: 130px;
+}
+
+.blogs p {
+  color: #334155;
+  font-size: 20px;
+  width: 40%;
+}
+.Map-1 {
+  width: 90%;
+  height: 30vh;
+  margin: auto;
+  padding-bottom: 200px;
+}
+.Modal-Viz {
+  width: 100%;
+  height: 300vh;
+  background: #8081bdcc;
+  position: absolute;
+  top: 0;
+  color: white;
+  text-align: center;
+  align-items: center;
+  display: none;
+}
+.Modal-Viz p,
+.Modal-Viz h1 {
+  position: fixed;
+  margin-left: 40%;
+  margin-top: 30px;
+}
+.Modal-Viz p {
+  margin-top: 100px;
+}
+.Ix {
+  position: fixed;
+  color: white;
+  font-weight: 900;
+  right: 30px;
+  top: 30px;
+  cursor: pointer;
+}
+.opens:hover {
+  background: white;
+  border: 1px solid #334155;
+  color: #334155;
+  cursor: pointer;
+}

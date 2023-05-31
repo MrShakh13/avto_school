@@ -1,0 +1,141 @@
+.bodyEmp .body {
+    width: 100%;
+    background: #FFF6D1;
+}
+
+.bodyEmp .bigah1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    color: #334155;
+    margin-left: 7%;
+}
+
+.bodyEmp .biga-pages {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    justify-content: space-around;
+}
+
+.bodyEmp #drop {
+    width: 217px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.bodyEmp #dropdown-basic {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #334155;
+}
+
+.bodyEmp #btnlar1 {
+    width: 243px;
+    height: 43px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #334155;
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+
+.bodyEmp #btnlar1:hover {
+    background-color: #0062eb;
+}
+
+.bodyEmp #pluslar {
+    font-size: 25px;
+    font-weight: 900;
+    /* border: 3px solid white;4 */
+}
+
+.bodyEmp #tables {
+    width: 100%;
+    border-radius: 30px;
+    background: white;
+}
+
+.bodyEmp #names {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(51, 65, 85, 0.5);
+    border-radius: 30px 30px 0px 0px;
+}
+
+.bodyEmp #names p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 10px;
+    color: #334155;
+}
+
+.bodyEmp #inform1 {
+    width: 100%;
+    height: 70px;
+    background: #D9D9D9;
+}
+
+.bodyEmp #inform-p {
+    width: 100%;
+    display: flex;
+    padding: 15px 0px 0px 30px;
+    justify-content: space-around;
+}
+.bodyEmp #inform-p1 {
+    width: 100%;
+    display: flex;
+    /* margin-left: 83%; */
+    padding: 15px 0px 0px 30px;
+    justify-content: space-around;
+}
+
+.bodyEmp #inform2 {
+    width: 100%;
+    height: 70px;
+    background: white;
+}
+
+.bodyEmp #iconci {
+    width: 70px;
+    display: flex;
+}
+
+.bodyEmp #iconci img {
+    width: 25px;
+    height: 25px;
+}
+
+@media (max-width:770px) {
+    .bodyEmp #tables {
+        width: 100%;
+        overflow-y: scroll;
+    }
+
+    .bodyEmp #names {
+        width: 1000px;
+    }
+
+    .bodyEmp #inform1 {
+        width: 1000px;
+    }
+
+    .bodyEmp #inform2 {
+        width: 1000px;
+    }
+}

@@ -1,0 +1,196 @@
+@media(max-width: 1669px) {
+    .HomePage  .card h1 {
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 1556px) {
+    .HomePage  .card {
+        height: 500px;
+    }
+
+}
+
+@media(max-width: 1269px) {
+    .HomePage  .card h1 {
+        font-size: 19px;
+    }
+
+    .HomePage  .cards {
+        width: 100%;
+    }
+}
+
+@media(max-width: 999px) {
+    .HomePage  .cards {
+        flex-wrap: wrap;
+    }
+
+    .HomePage  .card {
+        width: 400px;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 1035px) {
+    .This-day {
+        padding-bottom: 10px;
+    }
+
+    .HomePage  .card button {
+        bottom: 0;
+        margin-top: 20px !important;
+    }
+}
+
+@media(max-width: 1184px) {
+    .HomePage  .card {
+        height: auto;
+    }
+
+    .sekond {
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width: 414px) {
+    .HomePage  .card {
+        width: 90%;
+    }
+
+    .HomePage  .card h1 {
+        font-size: 16px;
+    }
+
+    .sekond {
+        font-size: 13px;
+    }
+
+    .data-1 {
+        font-size: 13px;
+    }
+
+    .novs {
+        margin-left: 7%;
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 799px) {
+    .HomePage  .card button {
+        margin-top: 0;
+        bottom: 20px;
+    }
+
+    .This-day {
+        height: 20px;
+    }
+}
+
+@media(max-width: 1550px) {
+    .smotr-et {
+        width: 50%;
+    }
+}
+
+@media(max-width: 626px) {
+    .blogs h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .blogs {
+        width: 100%;
+    }
+
+    .blog {
+        width: 100%;
+    }
+
+    .blogs p {
+        width: 100%;
+    }
+
+    .blogs img {
+        width: 100%;
+    }
+
+    .forms {
+        width: 100%;
+        margin: auto;
+    }
+
+    .forms button {
+        width: 74%;
+    }
+
+    .forms input {
+        width: 70%;
+        padding-right: 3px;
+    }
+
+    .asdas {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .spans {
+        width: 15px;
+        height: 15px;
+    }
+
+    .spansa {
+        width: 90%;
+    }
+}
+
+@media(max-width: 540px) {
+    .blogs h1 {
+        font-size: 20px;
+    }
+
+    .blogs p {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 444px) {
+    .blogs h1 {
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .blogs {
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .blog {
+        width: 100%;
+    }
+
+    .bgs {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .blogs img {
+        width: 90%;
+    }
+
+    .blogs p {
+        width: 100%;
+    }
+
+    .forms input {
+        width: 80%;
+    }
+
+    .forms button {
+        width: 84%;
+    }
+
+    .forms {
+        /* margin-left: 3%; */
+    }
+}

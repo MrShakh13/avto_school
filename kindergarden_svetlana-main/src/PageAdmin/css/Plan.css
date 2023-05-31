@@ -1,0 +1,171 @@
+.bigah1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 24px;
+  color: #334155;
+  margin-left: 7%;
+}
+
+.biga-pages {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  justify-content: space-around;
+}
+
+#drop {
+  width: 217px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+#dropdown-basic {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #334155;
+}
+
+#btnlar1 {
+  width: 243px;
+  height: 43px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #334155;
+  border-radius: 30px;
+  border: none;
+  color: white;
+}
+
+#btnlar1:hover {
+  background-color: #0062eb;
+}
+
+#pluslar {
+  font-size: 25px;
+  font-weight: 900;
+  /* border: 3px solid white;4 */
+}
+
+#tables {
+  width: 100%;
+  border-radius: 30px;
+  background: white;
+}
+
+#names {
+  display: flex;
+  justify-content: space-around;
+  background: rgba(51, 65, 85, 0.5);
+  border-radius: 30px 30px 0px 0px;
+}
+
+#names p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  margin-top: 10px;
+  color: #334155;
+}
+
+#inform1 {
+  width: 100%;
+  height: 70px;
+  /* background: #D9D9D9; */
+}
+
+#inform-p {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#inform-p1 {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  /* margin-left: 0%; */
+  padding: 15px;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+#inform-p1 p{
+  width: 170px;
+}
+
+#inform2 {
+  width: 100%;
+  height: 70px;
+  background: white;
+}
+
+#iconci {
+  width: 70px;
+  display: flex;
+}
+
+#iconci1 {
+  margin-left: 86%;
+}
+
+#iconci img {
+  width: 25px;
+  height: 25px;
+}
+
+@media (max-width:770px) {
+  #tables {
+    width: 100%;
+    overflow-y: scroll;
+  }
+
+  #names {
+    width: 1000px;
+  }
+
+  #inform1 {
+    width: 1000px;
+  }
+
+  #inform2 {
+    width: 1000px;
+  }
+}
+
+.textilari {
+  width: 250px;
+}
+
+.bigah1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #334155;
+}
+
+.headTools{
+  margin-top: 70px;
+  padding-bottom: 0;
+}
+.slect34{
+  width: 720px;
+  border-radius: 30px;
+height: 41px;
+}

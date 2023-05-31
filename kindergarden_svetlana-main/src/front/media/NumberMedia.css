@@ -1,0 +1,43 @@
+@media(max-width: 590px) {
+    .Div-form img {
+        width: 80%;
+    }
+
+    .Div-form{
+        margin-left: 2%;
+    }
+
+    .Inp-form{
+        width: 100%;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+
+    .Inp-form input{
+        width: 100%;
+    }
+
+    .Inp-form button {
+        width: 50%;
+        margin-left: 26%;
+    }
+}
+@media(max-width: 420px){
+    .Div-form{
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .Inp-form input{
+        width: 70%;
+        margin-left: 13%;
+    }
+    .Div-form img{
+        width: 60%;
+    }
+}
+@media(max-width: 802px){
+    #Modal{
+        padding-top: 200px;
+    }
+}

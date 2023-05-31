@@ -1,0 +1,43 @@
+.card .acc button {
+  color: #8081bd;
+  font-size: 20px;
+}
+.card .acc {
+  width: 100%;
+  border: none;
+  margin: auto;
+}
+.card .acch1 {
+  color: #8081bd;
+  margin-left: 5%;
+
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.card .accordion-header {
+  border-bottom: 3px solid #f6b31f;
+}
+
+.card .accordion-header:active {
+  box-shadow: none !important;
+  outline: none !important;
+}
+.card .accordion-item:active {
+  box-shadow: none !important;
+  outline: none !important;
+}
+.card .accordion-item {
+}
+.card .accordion-body {
+  border: none;
+}
+
+.card .accordion-button:active {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.card {
+  border: none !important;
+  margin-top: 130px !important;
+}

@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.The-Big{
+    width: 100% !important;
+    background: wheat;
+    min-height: 100vh;
+}
+
+.The-Big .bigbox{
+    width: 97%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.The-Big .routerDiv{
+    width: 75%;
+}
+
+.The-Big .Scroll-Page-Div{
+    width: 20%;
+    background: none;
+    padding-top: 100px;
+}
+
+.The-Big .Accor-Divs{
+    width: 100% !important;
+    background: none !important;
+}
+
+.The-Big .MuiTypography-root h5{
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.The-Big .MuiPaper-root  {
+    border: none !important;
+    background: wheat !important;
+}
+
+.The-Big .MuiButtonBase-root{
+    background: none;
+    border-radius: 30px;
+}
+
+.The-Big .MuiButtonBase-root:hover {
+    background: #fff;
+}
+.The-Big .MuiTypography-root h5:hover{
+    background: #fff;
+}
+
+.scrl-h4{
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.scrl-h4:hover{
+    background: #fff;
+}
+
+h5{
+    cursor: pointer;
+}
+
+.headTools{
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+.modallses{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    background: #0000008f;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalSozdat{
+    width: 40%;
+    display: block !important;
+}
+
+.datanachl{
+    width: 55%;
+}
+
+.btnu{
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.dobavit{
+    width: 100%;
+    min-height: 100vh;
+    background: #000000b4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.dobavit .dobav{
+    width: 40%;
+    min-height: 400px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.dobav h4{
+    color: black !important;
+    font-size: 20px;
+    /* height: 13px; */
+    margin-top: 10px;
+    padding-bottom: 3px;
+}
+
+.dobav input{
+    width: 90%;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 5px;
+    padding-left: 20px;
+}

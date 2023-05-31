@@ -1,0 +1,70 @@
+.card1 h1{
+    color: #8081BD;
+    font-family: 'Montserrat'
+    }
+    .card h2{
+        color: #79BC6D;
+        font-family: 'Montserrat';
+        font-size: 25px;
+    }
+    .card p{
+        color: #8081BD;
+        font-family: 'Montserrat';
+        font-size: 20px;
+    }
+    .card1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .card3 img{
+        border-radius: 15px;
+        margin-left: 10%;
+        margin-top: 180px;
+       width: 800px;
+    }
+    
+    .card{
+        margin-top: 50px;
+        margin-left: 15%;
+    }
+    .card4{
+        margin-left: 10%;
+        display: grid ;
+     
+        grid-template-columns: auto auto auto auto;
+    }
+    .card4 img{
+        margin-top: 15px;
+        width: 200px;
+        border-radius: 15px;
+      
+    }
+    .cardd {
+       margin-left: 20%;
+       margin-top: 100px;
+    
+    }
+    .cardd img{
+    margin-left: 1%;
+    }
+    @media (max-width:780px){
+    .card3 img{
+        width: 600px;  
+        margin: auto;
+        margin-left: 2%;
+    }
+    .card3{
+      
+    }
+    .card4 img{
+        width: 150px;
+       margin-right: 3%;
+    }
+    .card4{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    }
