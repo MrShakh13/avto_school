@@ -31,9 +31,9 @@ function CollapsibleExample() {
           <p>Biz onlayn ta'limni joriy etish va yo'lga qo'yish, nazariya va haydovchilik imtihonlarini boshqarishni soddalashtirishga yordam beramiz</p>
           <button>Ro'yxatdan o'tish</button>
         </div>
-        <div className='headCards'>
+        {/* <div className='headCards'>
           <img src={cardImg} alt='' />
-        </div>
+        </div> */}
       </div>
       <div className='headers2'>
         <div className='blur'></div>
